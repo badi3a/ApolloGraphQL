@@ -46,11 +46,9 @@ Run the following query:
 ├── 📄 index.js      # Main Apollo Server file
 └── 📂 node_modules  # Installed dependencies
 ```
-## 🎯 Next Steps
+## 🎯 Next Steps: your TODO
 Want to extend this example? Try adding:
-* ✅ A new query field (e.g., getUser with a name argument)
-* ✅ A mutation to modify data
-* ✅ Connecting Apollo Client for a frontend
+* ✅ a new query sayHello(name: String!) that returns a personalized greeting.
 --------------------
 ## 💡 About This Workshop
 This workshop is part of a series of GraphQL workshops developed by [Badia Bouhdid](https://tn.linkedin.com/in/badiabouhdid). If you enjoyed this session, stay tuned for more workshops on advanced GraphQL concepts, Apollo Client, authentication, and more! 🚀
