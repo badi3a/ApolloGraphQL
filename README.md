@@ -85,10 +85,12 @@ Run this GraphQL mutation:
 ```
 ## 🛠 Project Structure
 ```bash
-📂 apollo-graphql-starter
-├── 📄 package.json  # Node.js dependencies
-├── 📄 index.js      # Main Apollo Server file
-└── 📂 node_modules  # Installed dependencies
+📂 graphql-starter-project
+├── 📂 backend               # Backend (GraphQL API)
+│   ├── 📄 package.json      # Backend dependencies
+│   ├── 📄 index.js          # Main Apollo Server file
+│   ├── 📂 node_modules      # Installed backend dependencies
+├── 📄 README.md  
 ```
 ## 🎯 Next Steps
 🎯 Next Steps
