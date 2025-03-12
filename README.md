@@ -94,6 +94,7 @@ Run this GraphQL mutation:
 🎯 Next Steps
 Want to extend this example? Try adding:
 * ✅ A query to get a book by ID
+* * ✅ A query to get  books by author
 * ✅ A mutation to update or delete a book
 --------------------
 ## 💡 About This Workshop
