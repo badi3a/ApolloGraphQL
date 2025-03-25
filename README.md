@@ -30,19 +30,6 @@ This workshop covers both **backend and frontend technologies** that are essenti
 
 Each branch in this repository focuses on integrating these technologies in a step-by-step manner.
 
----
-
-## **👨‍💻 About the Author**
-
-This workshop was developed by **Badia Bouhdid**, a passionate software developer and instructor specializing in **Software architecture, Distributed systems, and full-stack development**.
-
-🌟 **Why this workshop?**  
-I created this workshop to help developers **transition from REST APIs to GraphQL**, showing how to build **scalable, efficient, and modern web applications**.
-
-🔗 **Follow me for more**:
-- **LinkedIn**: [Badia Bouhdid](https://tn.linkedin.com/in/badiabouhdid)
----
-
 ## **📌 Who is this Workshop for?**
 
 This workshop is designed for:  
@@ -72,6 +59,12 @@ This repository is organized into **separate branches** for each part of the wor
 ```bash
 git clone <YOUR_GITHUB_REPO_URL>
 cd graphql-workshop-repo
+//Fetch all remote branches
+git fetch --all //This downloads all branches from the remote repository but does not create local branches yet.
+//List all remote branches
+git branch -r
+// Create local branches tracking remote ones
+git checkout -b <branch-name> origin/<branch-name>
 ```
 ### **2️⃣ Switch to a Specific Projecty**
 Each project is in a different branch. Use the following commands to switch:
@@ -87,5 +80,18 @@ React Frontend
 ```bash
 git checkout frontend
 ```
+
+---
+
+## **👨‍💻 About the Author**
+
+This workshop was developed by **Badia Bouhdid**, a passionate software developer and instructor specializing in **Software architecture, Distributed systems, and full-stack development**.
+
+🌟 **Why this workshop?**  
+I created this workshop to help developers **transition from REST APIs to GraphQL**, showing how to build **scalable, efficient, and modern web applications**.
+
+🔗 **Follow me for more**:
+- **LinkedIn**: [Badia Bouhdid](https://tn.linkedin.com/in/badiabouhdid)
+---
 
 
